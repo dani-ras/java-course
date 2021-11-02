@@ -4,6 +4,14 @@ import java.util.Scanner; // Needed for the Scanner class to read input
 
 public class custom_order {
 
+  // int totalCost;
+  // String addOnList;
+
+  // static void addItem(String item, int cost) {
+  //   totalCost += cost;
+  //   addOnList += item;
+  // }
+
   // STEP 1 PRINTING HELLO WORLD TO CONSOLE
   public static void main(String[] args) {
 
@@ -20,7 +28,6 @@ public class custom_order {
     String frostingType; // Frosting ordered
     String fillingType; // Filling ordered
     String toppings; // Toppings ordered
-    String input; // User input
 
     double cost = 15.00; // Cost of cake and cupcakes
     final double TAX_RATE = .08; // Sales tax rate
